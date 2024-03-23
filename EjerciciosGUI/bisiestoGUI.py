@@ -16,7 +16,7 @@ def CalcularBisiesto(year):
                 esBisiesto = True
     messagebox.showinfo(title = "Resultado", message = "El año es bisiesto" if esBisiesto else "El año no  es bisiesto")
     
-root.title("Test")
+root.title("Año Bisiesto")
 
 label = ttk.Label(form, text = "Ingrese el año")
 entry = ttk.Entry(form)
